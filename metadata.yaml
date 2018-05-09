@@ -1,0 +1,45 @@
+---
+title:  ''
+subtitle: ''
+abstract: ''
+header-includes: |
+  \usepackage{makeidx}
+  \usepackage{multirow}
+  \usepackage{multicol}
+  \usepackage[dvipsnames,svgnames,table]{xcolor}
+  \usepackage{graphicx}
+  \usepackage{epstopdf}
+  \usepackage{ulem}
+  \usepackage{hyperref}
+  \usepackage{amsmath}
+  \usepackage{amssymb}
+  \usepackage[paperwidth=612pt,paperheight=792pt,top=28pt,right=34pt,bottom=35pt,left=34pt]{geometry}
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX} 
+  \setromanfont{Verdana}
+
+include-before: |
+  \noindent \textbf{PROPOSAL ABSTRACT: }
+  \noindent \textbf{}
+  \begin{tabular}{|p{2.3in}|p{4.7in}|}
+  \hline
+  \parbox{2.3in}{\centering }
+  & \parbox{4.7in} {\centering }  \\
+  \parbox{2.3in} {\raggedright \textbf{Name of Principal Investigator:} }
+  & \parbox{4.7in} {\centering } Joan Smith  \\ 
+  \parbox{2.3in}{\centering }
+  & \parbox{4.7in} {\centering } \\
+  \hline 
+  \parbox{2.3in}{\centering }
+  & \parbox{4.7in} {\centering }  \\
+  \parbox{2.3in} {\raggedright\textbf{Proposal Title:} }
+  & \parbox{4.7in} {\centering } Super title winner of Fondecyt grants \\
+  \parbox{2.3in}{\centering } 
+  & \parbox{4.7in} {\centering } \\
+  \hline 
+  \end{tabular}
+
+  \vspace{15pt}
+  \noindent Describe the main issues to be addressed: goals, methodology and expected results. \textbf{The maximum length for this section is 1 page }(Must use letter size, Verdana size 10 or similar).
+
+...
